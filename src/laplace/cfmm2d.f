@@ -1653,7 +1653,8 @@ c------------------------------------------------------------------
       integer nlevels,nterms(0:nlevels),nd,nsig,nt1,nt2,next235
       integer *8 iaddr(2,*), lmptot
       integer laddr(2,0:nlevels)
-      integer ibox,i,iptr,nn,itmp
+      integer ibox,i,iptr
+      integer *8 nn,itmp
       integer *8 istart
       real *8 ddn
 c
